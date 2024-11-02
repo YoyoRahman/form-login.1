@@ -1,18 +1,58 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Node modules
+node_modules/
 
-# Other files and folders
-.settings/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Runtime data
+pids/
+*.pid
+*.pid.lock
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Coverage
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Parcel-bundler cache (e.g. "dist" folder for Parcel builds)
+.cache/
+dist/
+
+# dotenv environment variable files
+.env
+.env.*.local
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mac OS files
+.DS_Store
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Optional stylelint cache
+.stylelintcache
+
+# Tests output
+/coverage
